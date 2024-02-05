@@ -1,0 +1,39 @@
+/* กำหนดลักษณะของ container ที่ใช้แสดงบล็อกและ container ที่ใช้เป็น stack ของบล็อก */
+#stack-container,
+#block-container {
+  width: 200px;
+  min-height: 300px;
+  margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* กำหนดลักษณะของบล็อก (block1 และ block2) */
+.block1 {
+  width: 100px;
+  height: 30px;
+  background-image: url(p2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 2px 0;
+  cursor: grab;
+}
+
+.block2 {
+  width: 100px;
+  height: 30px;
+  background-image: url(p1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 2px 0;
+  cursor: grab;
+}
+
+/* กำหนดลักษณะของ container ที่ใช้จัดวางกลางหน้าจอ */
+.center {
+  display: flex;
+}
